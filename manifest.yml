@@ -9,7 +9,7 @@ applications:
   host: spring-music-cf-job-1234
   domain: cfapps.io
 
-  path: pre-built/cf-session-management-0.0.1-SNAPSHOT.war
+  path: pre-built/spring-music-1.0.0.war
 
 
   instances: 1
