@@ -1,9 +1,0 @@
-applications:
-- name: cf-spring-music
-  memory: 1024m
-  # Add your name/initials to make the hostname unique
-  host: cf-spring-music-sarnendu
-  instances: 1
-  # Currently defaults to PWS
-  domain: cfapps.io
-  path: target/spring-music-1.0.0.war
