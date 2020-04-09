@@ -1,15 +1,9 @@
 applications:
-
-- name: spring-music-cf-job
-
-  memory: 1024M
-
+- name: cf-spring-music
+  memory: 1024m
   # Add your name/initials to make the hostname unique
-
-  host: spring-music-cf-job-1234
-  domain: cfapps.io
-
-  path: pre-built/spring-music-1.0.0.war
-
-
+  host: cf-spring-music-cap-111
   instances: 1
+  # Currently defaults to PWS
+  domain: cfapps.io
+  path: target/spring-music-1.0.0.war
